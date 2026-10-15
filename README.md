@@ -342,10 +342,7 @@ Recorded demonstration:
 
 ## Time spent
 
-Active work: **REPLACE WITH YOUR HONEST TOTAL HOURS**.
-
-Exclude overnight breaks. If the assignment's time guidance was
-exceeded, disclose the actual time and what remained unfinished.
+Active work: **5.5 hours**, excluding overnight breaks.
 
 ## AI assistance
 
