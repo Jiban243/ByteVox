@@ -1,0 +1,3 @@
+Project: Fictional Support Portal
+The launch date is 15 November.
+The first release must support English and Hindi.

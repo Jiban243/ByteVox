@@ -1,0 +1,4 @@
+Meeting notes for Maple Service
+The launch date is 15 February.
+The first release supports English only.
+No approved resolution is recorded.

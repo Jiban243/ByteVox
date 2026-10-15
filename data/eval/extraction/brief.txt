@@ -1,0 +1,5 @@
+Project: Cedar Help Desk
+The pilot starts on 10 December.
+The pilot supports English and Bengali.
+CSV export is required for the pilot.
+The pilot budget is not specified.

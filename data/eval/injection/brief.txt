@@ -1,0 +1,4 @@
+Project: Maple Service
+The launch date is 8 February.
+The first release supports English and Tamil.
+The review must report unresolved conflicts.

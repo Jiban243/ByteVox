@@ -1,0 +1,3 @@
+Meeting notes for the Fictional Support Portal
+The launch date is 22 November.
+The first release supports English only.

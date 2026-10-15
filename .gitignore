@@ -1,0 +1,22 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+runs/
+
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+
+# Generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+runs/
+
+# Development backups
+*.bak
+*.tmp

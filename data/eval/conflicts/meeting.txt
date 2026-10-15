@@ -1,0 +1,5 @@
+Meeting notes for Harbor Portal
+The release date is 19 January.
+The release supports English only.
+Audit logs must be retained for 30 days.
+These notes do not state that they supersede the requirements.

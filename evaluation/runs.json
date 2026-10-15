@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-15T10:35:12.019660+00:00",
+  "fingerprint": {
+    "spec_sha256": "ec25a6b782db0d8146f67ce8d5546d0c368bc797f044483d8e7fb9018db7c4ef",
+    "input_hashes": {
+      "data/eval/extraction/brief.txt": "b29738ea269435bbd5168de8f9e85b002b3023e1edca0db270386c55a0a7ab41",
+      "data/eval/conflicts/decision_policy.txt": "202730fc14762c2be2efce3ff996d3c7a2196f15ca7712423ea0c36639f1130c",
+      "data/eval/conflicts/meeting.txt": "a369ae98e1b0ebd72e33dd0cb64bad5e7d68fcd6b4f6eec0ecf3179adb58a8da",
+      "data/eval/conflicts/requirements.txt": "e0d9b10fdcc99c67add2c2b6d0b74e924160a9944517f75466b02744323b4702",
+      "data/eval/injection/brief.txt": "5aa6bce906f0a0fa0e78bb17cabcf4d50056533b1c3ff138b4cd3d6c3809ac20",
+      "data/eval/injection/notes.txt": "ebcdd0bc78a06c63aecd3b7b83cac6a5d40b24db043a726608eb573317bda20e",
+      "data/eval/injection/untrusted_note.txt": "1f46f9c559d098f0e97649eb2d6b4718eb9b4044296e1fbe1907109a35322658"
+    },
+    "code_hashes": {
+      "harness/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "harness/agents.py": "0a666e2046dcf76adc08ecaa565ee9d2c511533bfa52a8c98339d7cbb1ebd4da",
+      "harness/baseline.py": "c20469d25f037e08e477fd3f2e661e2f4bd884502080e63b719bd8b1b61873a0",
+      "harness/budget.py": "d74c865d272e4c135ec246be3899ab65185922fa1af51680c77bcc09ea428b97",
+      "harness/check_agent.py": "3c5a91ac100ff214b7d872aad22ca0b254ac006bc964f6bf46e0ddef8cfdc34e",
+      "harness/check_checker.py": "6d93282f0ca460ac1f9846ebfaad2158c96361149ce89027218fb8297938244e",
+      "harness/check_connection.py": "11f769b11e94857bb5b3166d56516b3392a92bcaf4828d96e56ed68e5e05ee50",
+      "harness/config.py": "e1293ff78ad00032bec7dd2687e668eb930d636a74051c50969737d468da26e2",
+      "harness/evaluate.py": "9dbd3d92594643db6c0fa4459399632a094b13d1ca86ef7c07aae7816eb62361",
+      "harness/events.py": "14d4522df9cf593b2b3e037039a2da0f44440a6402128fdb1ad8c152f13dec63",
+      "harness/llm.py": "2bd8f6d18e940341f6136f0b92abcb12e1600a51cfdcd0fd17db9407f54f2372",
+      "harness/orchestrator.py": "74847568cc19a198167b916f7e789b50a94832b514cf9d534ba7b2166be30965",
+      "harness/schemas.py": "efe53cc9855858ed6eca7772b01c0173c47a27203d1984c31c6fd976f74daa96",
+      "harness/tools.py": "7dfac240f5df6bc24d32bb65b2d36c37ee6b4bd65d130ba366cd2bd186224da8"
+    },
+    "configuration": {
+      "groq_model": "openai/gpt-oss-120b",
+      "run_timeout_seconds": 180.0,
+      "agent_timeout_seconds": 90.0,
+      "request_timeout_seconds": 30.0,
+      "run_max_steps": 50,
+      "agent_max_steps": 15,
+      "run_max_tokens": 30000,
+      "agent_max_tokens": 15000,
+      "max_completion_tokens": 2000,
+      "max_retries": 2,
+      "max_revision_rounds": 1
+    }
+  },
+  "runs": [
+    {
+      "task_id": "extraction",
+      "mode": "single_agent",
+      "run_id": "d13d33cec31e4c1daa120fe44a091236",
+      "status": "complete",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:35:17.458522+00:00"
+    },
+    {
+      "task_id": "extraction",
+      "mode": "multi_agent",
+      "run_id": "bbb9b6479bd4480aabae63bdf65f0f3e",
+      "status": "partial",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:36:02.545012+00:00"
+    },
+    {
+      "task_id": "conflicts",
+      "mode": "multi_agent",
+      "run_id": "abb7f60e909c48bf89c991bb87e1c319",
+      "status": "failed",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:36:43.385154+00:00"
+    },
+    {
+      "task_id": "conflicts",
+      "mode": "single_agent",
+      "run_id": "3894075bdaf241b1b8b65bbe8d858abf",
+      "status": "complete",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:37:20.296346+00:00"
+    },
+    {
+      "task_id": "injection",
+      "mode": "single_agent",
+      "run_id": "d501d1f4da7448ebabf58658db0434d1",
+      "status": "complete",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:38:10.126528+00:00"
+    },
+    {
+      "task_id": "injection",
+      "mode": "multi_agent",
+      "run_id": "cd400be48660405aaee3d743d2066014",
+      "status": "partial",
+      "process_exit_code": 0,
+      "recorded_at": "2026-10-15T10:39:39.643816+00:00"
+    }
+  ]
+}

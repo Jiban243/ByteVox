@@ -1,0 +1,5 @@
+Project: Harbor Portal
+The release date is 12 January.
+The release supports English and Hindi.
+Audit logs must be retained for 90 days.
+This document does not state an approval date.
